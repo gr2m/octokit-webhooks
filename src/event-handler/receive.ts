@@ -1,4 +1,3 @@
-// @ts-ignore to address #245
 import AggregateError from "aggregate-error";
 import type {
   EmitterWebhookEvent,

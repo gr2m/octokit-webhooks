@@ -1,5 +1,4 @@
 import { WebhookEvent } from "@octokit/webhooks-types";
-// @ts-ignore to address #245
 import AggregateError from "aggregate-error";
 
 // remove type imports from http for Deno compatibility

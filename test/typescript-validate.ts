@@ -172,7 +172,7 @@ export default async function () {
 
   webhooks.onError((error) => {
     console.log(error.event.name);
-    const [firstError] = Array.from(error);
+    const [firstError] = Array.from(error.errors);
     console.log(firstError.status);
     console.log(firstError.headers);
     console.log(firstError.request);
