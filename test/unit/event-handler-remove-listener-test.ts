@@ -1,4 +1,4 @@
-import { removeListener } from "../../src/event-handler/remove-listener";
+import { removeListener } from "../../src/event-handler/remove-listener.js";
 import { State } from "../../src/types";
 
 test("remove-listener: single listener", () => {

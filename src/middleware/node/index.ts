@@ -1,7 +1,7 @@
-import { createLogger } from "../../createLogger";
-import { Webhooks } from "../../index";
-import { middleware } from "./middleware";
-import { onUnhandledRequestDefault } from "./on-unhandled-request-default";
+import { createLogger } from "../../createLogger.js";
+import { Webhooks } from "../../index.js";
+import { middleware } from "./middleware.js";
+import { onUnhandledRequestDefault } from "./on-unhandled-request-default.js";
 import { MiddlewareOptions } from "./types";
 
 export function createNodeMiddleware(

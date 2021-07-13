@@ -1,4 +1,4 @@
-import { receiverHandle as receive } from "../../src/event-handler/receive";
+import { receiverHandle as receive } from "../../src/event-handler/receive.js";
 import { State } from "../../src/types";
 
 const state: State = {

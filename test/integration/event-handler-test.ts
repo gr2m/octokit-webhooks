@@ -1,6 +1,9 @@
-import { createEventHandler } from "../../src/event-handler";
+import { createEventHandler } from "../../src/event-handler/index.js";
 import { EmitterWebhookEvent, WebhookEventHandlerError } from "../../src/types";
-import { installationCreatedPayload, pushEventPayload } from "../fixtures";
+import {
+  installationCreatedPayload,
+  pushEventPayload,
+} from "../fixtures/index.js";
 
 test("events", async () => {
   const eventHandler = createEventHandler({});

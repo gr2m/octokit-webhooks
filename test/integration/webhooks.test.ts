@@ -2,8 +2,8 @@ import { readFileSync } from "fs";
 
 import { sign } from "@octokit/webhooks-methods";
 
-import { Webhooks, EmitterWebhookEvent } from "../../src";
-import { toNormalizedJsonString } from "../../src/to-normalized-json-string";
+import { Webhooks, EmitterWebhookEvent } from "../../src/index.js";
+import { toNormalizedJsonString } from "../../src/to-normalized-json-string.js";
 
 const pushEventPayloadString = readFileSync(
   "test/fixtures/push-payload.json",

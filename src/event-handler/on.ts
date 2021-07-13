@@ -1,4 +1,4 @@
-import { emitterEventNames } from "../generated/webhook-names";
+import { emitterEventNames } from "../generated/webhook-names.js";
 import {
   EmitterWebhookEvent,
   EmitterWebhookEventName,

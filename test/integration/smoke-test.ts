@@ -1,4 +1,4 @@
-import { Webhooks, createEventHandler } from "../../src";
+import { Webhooks, createEventHandler } from "../../src/index.js";
 
 test("@octokit/webhooks", () => {
   const emitWarningSpy = jest.spyOn(process, "emitWarning");

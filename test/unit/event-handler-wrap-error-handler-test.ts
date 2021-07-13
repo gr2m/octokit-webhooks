@@ -1,4 +1,4 @@
-import { wrapErrorHandler } from "../../src/event-handler/wrap-error-handler";
+import { wrapErrorHandler } from "../../src/event-handler/wrap-error-handler.js";
 
 const noop = () => {};
 

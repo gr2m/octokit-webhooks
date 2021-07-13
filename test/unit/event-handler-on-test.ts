@@ -1,4 +1,4 @@
-import { receiverOn } from "../../src/event-handler/on";
+import { receiverOn } from "../../src/event-handler/on.js";
 import { State } from "../../src/types";
 
 function noop() {}

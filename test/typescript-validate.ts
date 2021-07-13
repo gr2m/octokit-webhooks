@@ -4,7 +4,7 @@ import {
   EmitterWebhookEvent,
   WebhookError,
   createNodeMiddleware,
-} from "../src/index";
+} from "../src/index.js";
 import { createServer } from "http";
 import { HandlerFunction, EmitterWebhookEventName } from "../src/types";
 

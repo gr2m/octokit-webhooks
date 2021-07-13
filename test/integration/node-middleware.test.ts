@@ -7,7 +7,7 @@ import { sign } from "@octokit/webhooks-methods";
 // import without types
 const express = require("express");
 
-import { Webhooks, createNodeMiddleware } from "../../src";
+import { Webhooks, createNodeMiddleware } from "../../src/index.js";
 
 const pushEventPayload = readFileSync(
   "test/fixtures/push-payload.json",
